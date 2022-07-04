@@ -16,7 +16,7 @@ P {
     font-size: 17px;
 }
 
-section {
+.page-two {
     display: flex;
     margin-bottom: 150px;
 }
@@ -48,4 +48,24 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience {
+    width: 50%;
+    margin-left: 5%;
+    margin: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid rgb(84, 181, 202);
+    ;
+}
+
+.page-two {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer p {
+    text-align: center;
 }
